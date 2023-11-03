@@ -1,0 +1,126 @@
+.home--page {
+    padding: 2em 0;
+}
+
+.section--style {
+    display: flex;
+    gap: 1em;
+}
+
+.outer-section--style {
+    padding: 2em;
+}
+
+.outer-section--style h2 {
+    line-height: 31px;
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+.outer-section--style p {
+    font-size: 1.3rem;
+    margin: 0.5em 0;
+}
+
+.container--common {
+    /* width: 25%; */
+}
+
+.container--common img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.container--common h3 {
+    font-size: 1rem;
+    line-height: 21px;
+    margin-top: 1em;
+}
+
+.container--common p {
+    font-size: 0.9rem;
+    margin: 0.5em 0;
+}
+
+.destination--container {
+    width: 15%;
+}
+
+.destination--container img {
+    height: 120px;
+}
+
+.popular--destination--container {
+    width: 20%;
+    position: relative;
+}
+
+.popular--destination--container span {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.unique--properties {
+    display: flex;
+    gap: 1.5em;
+}
+
+.unique--container {
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.unique--container img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.unique--container > p {
+    font-size: 1rem;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.dark--text {
+    font-weight: 900px;
+    color: black;
+}
+
+.ratings span {
+    font-size: 1rem;
+}
+
+.ratings p {
+    background-color: #3535b7;
+    color: white;
+    padding: 0.3em 0.5em;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cost {
+   display: flex;
+   align-items: center;
+}
+
+.cost span {
+    margin-left: auto;
+    margin-right: 1em;
+    font-size: 1rem;
+}
+
+.cost p {
+    font-weight: bold;
+}
