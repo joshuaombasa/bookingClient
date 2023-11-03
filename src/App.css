@@ -1,0 +1,30 @@
+*::after, *::before, * {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,p {
+  margin: 0;
+}
+
+span, a, input {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  cursor: pointer;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
