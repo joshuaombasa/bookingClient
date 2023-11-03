@@ -1,0 +1,149 @@
+.search-wrapper {
+    padding: 2em;
+    position: absolute;
+    top: 70%;
+    width: 1200px;
+}
+
+.search--container {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 5px solid gold;
+    border-radius: 5px;
+}
+
+.search-icon {
+    font-size: 1.5rem;
+    color: rgb(113, 103, 103);
+}
+
+.search-sections {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.6em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.inner--search--section {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.6em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.destination-search {
+    width: 30%;
+   
+}
+
+.inner--search {
+    padding: 0.3rem;
+    border: 1px solid blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.destination-search input {
+    padding: 0.5em;
+    border: none;
+    outline: unset;
+    font-size: 1rem;
+}
+
+.dates-search , .guest-search {
+    width: 28%;
+}
+
+.search-btn {
+    width: 14%;
+    font-size: 1.3rem;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    display: block;
+}
+
+.dates-search {
+    position: relative;
+}
+
+.calender--modal {
+    position: absolute;
+    top: 115%;
+    height: 400px;
+    width: 600px;
+    box-shadow: 0px 0px 5px 2px #49a5aa;
+}
+
+.date-range {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.guest-search {
+    position: relative;
+}
+
+.guest-search-modal {
+    position: absolute;
+    background-color: white;
+    z-index: 0;
+    top: 115%;
+    width: 400px;
+    padding: 2em;
+    box-shadow: 0px 0px 5px 2px #49a5aa;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 5px;
+}
+
+.ctas {
+    display: flex;
+    padding: 0.5em 2em;
+    border: 1px solid rgb(42, 42, 141);
+    border-radius: 5px;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.ctas button {
+    border: none;
+    background-color: inherit;
+    font-size: 1.3rem;
+    color: royalblue;
+}
+
+.guest--section--wrappers {
+    display: flex;
+    align-items: center;
+}
+
+.guest--section--wrappers p {
+    margin-right: auto;
+}
+
+.close--guests--modal--btn {
+    padding: 0.6em;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid royalblue;
+    color: royalblue;
+    
+}
+
+.down--icon {
+    margin-left: auto;
+}
