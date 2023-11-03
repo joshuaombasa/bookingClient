@@ -1,0 +1,58 @@
+.layout--wrapper {
+    width: 100%;
+}
+
+.compound--header {
+    background-color: #3535b7;
+    position: relative;
+}
+
+.layout--container {
+    width: 1200px;
+    margin:  0 auto;
+    min-height: 50vh;
+}
+
+.nav--container {
+    width: 1200px;
+    margin:  0 auto;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.nav--links {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.nav--ctas {
+    color: #3535b7;
+    padding: 0.3em 1em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.list--property--link {
+    color: white;
+}
+
+
+.list--your--property--footer--link {
+    padding: 0.3em;
+    width: 200px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
