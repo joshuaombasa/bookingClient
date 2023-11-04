@@ -183,7 +183,7 @@ export default function Search() {
                         >Done</button>
                     </div>}
                 </div>
-                <Link to="/searchresults" className="search-btn">Search</Link>
+                <Link to="/hotels" className="search-btn">Search</Link>
             </div>
         </div>
     )
