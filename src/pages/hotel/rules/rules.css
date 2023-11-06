@@ -1,0 +1,62 @@
+
+.rules--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.area {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid rgb(240, 236, 236);
+    margin: 1em;
+}
+
+.rules--outine {
+    border: 1px solid rgb(240, 236, 236);
+}
+
+
+.text {
+    width: 70%;
+}
+
+.text p {
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+}
+
+.topic {
+    display: flex;
+    gap: 1em;
+}
+
+.topic .icon , .text .icon{
+    font-size: 1.5rem;
+    margin-right: 1em;
+}
+
+.two--and--below, .three--and--above {
+    border: 1px solid rgb(240, 236, 236);
+    padding: 1em;
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+.two--and--below > p, .three--and--above p{
+    border-bottom: 1px solid rgb(240, 236, 236);
+    padding-bottom: 1em;
+}
+
+.bed, .cot {
+  
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.bed p, .cot p {
+    width: 50%;
+}
