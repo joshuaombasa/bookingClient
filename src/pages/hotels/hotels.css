@@ -1,0 +1,175 @@
+.searchresults--page {
+    padding: 4em 2em;
+    min-height: 70vh;
+}
+
+.searchresults--page-container {
+    display: flex;
+    gap: 2em;
+}
+
+
+.filters--column {
+   
+    min-height: 800px;
+    width: 25%;
+}
+
+.results--column {
+    /* border: 1px solid green; */
+    min-height: 800px;
+    width: 75%;
+}
+
+.single--result {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    box-shadow: 0px 0px 2px 1px #888888;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+.single--result img {
+    width: 30%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.specs--container {
+    display: flex;
+    width: 70%;
+    gap: 1em;
+    padding: 0.5em;
+    flex-direction: column;
+}
+
+.details--and-ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top--right {
+    display: flex;
+    gap: 1em;
+}
+
+.top--right  span {
+    padding: 0.5em 0.8em;
+    border-radius: 3px;
+    height: 30px;
+    color: white;
+    background-color: #2828cf;
+}
+
+.top--right  p {
+    text-align: end;
+    font-weight: 600;
+}
+
+.top--left {
+
+}
+
+.name--specs h3 {
+    color: #2828cf;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+.location--specs {
+    display: flex;
+    gap: 1em;
+}
+
+.location--specs a {
+    text-decoration: underline;
+    color: #2053b2;
+    font-weight: 600;margin-bottom: 0.2em;
+}
+
+.room--card {
+    
+    padding-left: 1em;
+    box-shadow: 10px 0 10px -10px #888888 inset;
+}
+
+.room--card p {
+    font-weight: 600;
+    color: rgb(76, 71, 71);
+}
+
+.perks {
+    display: flex;
+    align-items: center;
+}
+
+.room--and--charges {
+    display: flex;
+    justify-content: space-between;
+}
+
+.charges {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    text-align: end;
+}
+
+.green--text {
+    color: rgb(4, 117, 4);
+}
+
+.perks p, .sustainability--specs {
+    font-weight: 600;
+    color: rgb(4, 117, 4);
+}
+
+.sustainability--specs {
+    display: flex;
+    background-color: rgb(243, 249, 241);
+    border-radius: 5px;
+    align-items: center;
+}
+
+.sustainability--specs span {
+    margin-left: 1em;
+}
+
+.green-icons {
+    color: rgb(4, 117, 4);
+    font-size: 1.3rem;
+}
+
+.stars {
+    margin: 0.3em 0;
+}
+
+.gold--stars {
+    color: goldenrod;
+}
+
+.single--result small {
+    font-size: 0.9rem;
+}
+
+.main--cost {
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+}
+
+.availability--link {
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+    padding: 0.6em 0;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.availability--link .icon {
+    font-size: 1.3rem;
+}
