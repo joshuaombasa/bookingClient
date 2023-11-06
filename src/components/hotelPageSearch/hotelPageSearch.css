@@ -1,0 +1,57 @@
+.hotelPageSearch--container {
+    background-color: gold;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.hotelPageSearch--container small {
+    font-size: 0.9rem;
+}
+
+.hotelPageSearch--container h4 {
+    font-size: 1.5rem;
+}
+
+.search--area {
+    background-color: white;
+    display: flex;
+    padding: 0.5em;
+    align-items: center;
+    gap: 1em;
+    border-radius: 3px;
+    border: 2px solid white;
+    margin-top: 0.3em;
+}
+
+.search--area:hover, .search--area:focus {
+    border: 2px solid royalblue;
+}
+
+.hotel--page--search--icons {
+    font-size: 1.5rem;
+}
+
+.search--area input{
+    width: 80%;
+    padding: 0.5em;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.search--area .down--icon {
+    margin-right: left;
+}
+
+.hotels--page--search--btn {
+    padding: 0.5em ;
+    text-align: center;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: 1em;
+    border-radius: 3px;
+}
