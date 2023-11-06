@@ -1,0 +1,106 @@
+.hotel--nav {
+    display: flex;
+    justify-content: start;
+    gap: 2em;
+}
+
+.search--section {
+    width: 30%;
+
+
+}
+
+.over-view--head {
+    width: 70%;
+
+}
+
+.section--one .top {
+    display: flex;
+    gap: 2em;
+}
+
+.middle {
+    padding: 2em 0;
+}
+
+.ammenities--sample {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.ammenities--icon-container {
+    border: 1px solid black;
+    padding: 1em 2em;
+}
+
+.ammenities--sample .icon {
+    font-size: 2rem;
+}
+
+.ammenities--icon-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    /* width: 250px; */
+    border-radius: 3px;
+}
+
+
+.bottom--section {
+    display: flex;
+    gap: 1em;
+}
+
+.highlights {
+    padding: 1em;
+    background-color: rgb(217, 235, 236);
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    height: 400px;
+}
+
+.highlights .flat {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.flat .icon {
+    font-size: 2rem;
+}
+
+.descriptions p {
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+}
+
+.all-ammenities--icon-container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.all-ammenities--icon-container .icon {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.ammenities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 1em;
+}
+
+.reserve--btn {
+    padding: 0.5em 0;
+    background-color: royalblue;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+}
