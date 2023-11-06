@@ -1,0 +1,11 @@
+.hotelLayout--container {
+   padding: 4em 2em;
+}
+
+.hotel--nav {
+   display: flex;
+   gap: 2em;
+   font-size: 1.3rem;
+   line-height: 21px;
+   padding: 2em 0;
+}
