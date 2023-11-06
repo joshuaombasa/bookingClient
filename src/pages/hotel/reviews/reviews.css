@@ -1,0 +1,84 @@
+.reviews--card {
+    display: flex;
+    gap: 2em;
+    padding: 1.5em 0;
+    border-bottom: 0.01px solid rgb(207, 201, 201);
+}
+
+.reviews--card h3 {
+    line-height: 21px;
+}
+
+.reviewer--data  span {
+    color: rgb(105, 100, 100);
+}
+
+.reviewer--data {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.bed {
+    align-items: flex-start;
+}
+
+.reviewer--data .flat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.bed {
+    align-items: flex-start;
+   
+}
+
+.reviewer--data .icon {
+    font-size: 1.2rem;
+}
+
+.bed.icon {
+    font-size: 1.5rem;
+}
+
+.flat span {
+    /* margin-left: auto; */
+}
+
+.review--text {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.review--text > div {
+    display: flex;
+    /* align-items: center; */
+    gap: 1em;
+}
+
+.review--text p {
+    line-height: 1.5;
+}
+
+.green--icon {
+    color: rgb(74, 175, 74);
+}
+
+.red--icon {
+    color: rgb(218, 48, 48);
+}
+
+.rating {
+    color: white;
+    line-height: 21px;
+    align-self: self-start;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    background-color: rgb(10, 40, 129);
+    border-radius: 3px;
+}
