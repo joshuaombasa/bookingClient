@@ -1,0 +1,35 @@
+.most--popular--facilities {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.header {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.facilities--page--container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.facilities--page--container .wrapper {
+    padding: 0.5em;
+    display: flex;
+    gap : 1em;
+}
+
+.bathroom  {
+    padding: 1em;
+}
+
+.bathroom .header {
+    display: flex;
+}
+
+.header .icon {
+    font-size: 1.5rem;
+}
