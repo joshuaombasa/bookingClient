@@ -143,12 +143,12 @@ export default function Search() {
                             <p>Adults</p>
                             <div className="adults--cta ctas">
                                 <button
-                                  disabled={guestsSearchObject.adults <= 1}
-                                  onClick={() => handleGuestsSearchObjectChanges("minusAdult")}
+                                    disabled={guestsSearchObject.adults <= 1}
+                                    onClick={() => handleGuestsSearchObjectChanges("minusAdult")}
                                 >-</button>
                                 <span>{guestsSearchObject.adults}</span>
                                 <button
-                                  onClick={() => handleGuestsSearchObjectChanges("addAdult")}
+                                    onClick={() => handleGuestsSearchObjectChanges("addAdult")}
                                 >+</button>
                             </div>
                         </div>
@@ -156,25 +156,25 @@ export default function Search() {
                             <p>Children</p>
                             <div className="children--cta ctas">
                                 <button
-                                  disabled={guestsSearchObject.chilren <= 0 }
-                                  onClick={() => handleGuestsSearchObjectChanges("minusChilren")}
+                                    disabled={guestsSearchObject.chilren <= 0}
+                                    onClick={() => handleGuestsSearchObjectChanges("minusChilren")}
                                 >-</button>
                                 <span>{guestsSearchObject.chilren}</span>
                                 <button
-                                  onClick={() => handleGuestsSearchObjectChanges("addChildren")}
+                                    onClick={() => handleGuestsSearchObjectChanges("addChildren")}
                                 >+</button>
                             </div>
                         </div>
-                        <div className="rooms guest--section--wrappers">
+                        <div className="guest--section--wrappers">
                             <p>Rooms</p>
                             <div className="roooms--cta ctas">
                                 <button
-                                  disabled={guestsSearchObject.rooms <= 1 }
-                                  onClick={() => handleGuestsSearchObjectChanges("minusRooms")}
+                                    disabled={guestsSearchObject.rooms <= 1}
+                                    onClick={() => handleGuestsSearchObjectChanges("minusRooms")}
                                 >-</button>
                                 <span>{guestsSearchObject.rooms}</span>
                                 <button
-                                  onClick={() => handleGuestsSearchObjectChanges("addRooms")}
+                                    onClick={() => handleGuestsSearchObjectChanges("addRooms")}
                                 >+</button>
                             </div>
                         </div>
