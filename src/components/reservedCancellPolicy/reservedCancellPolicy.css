@@ -1,0 +1,25 @@
+
+
+.cancel {
+    display: flex;
+    gap: 1em;
+    padding: 0.5em;
+    border: 1px solid silver;
+    border-radius: 5px;
+   
+}
+
+.warning--card > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warning--card {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    border: 1px solid silver;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
