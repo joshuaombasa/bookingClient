@@ -1,0 +1,18 @@
+.bookingDetails--page--container {
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-between;
+}
+
+.hotel--details {
+  
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.your--personal--details {
+    border: 1px solid green;
+    width: 70%;
+}
