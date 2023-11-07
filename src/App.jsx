@@ -14,6 +14,8 @@ import InfoAndPrices from './pages/hotel/infoAndPrices/InfoAndPrices'
 import Facilities from './pages/hotel/facilities/facilities'
 import Rules from './pages/hotel/rules/Rules'
 import Reviews from './pages/hotel/reviews/Reviews'
+import ReserveLayout from './components/reserverLayout/ReserveLayout'
+import BookingDetails from './pages/booking/bookingDetails/BookingDetails'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -26,6 +28,9 @@ function App() {
         <Route path='facilities' element={<Facilities/>}/>
         <Route path='rules' element={<Rules/>}/>
         <Route path='reviews' element={<Reviews/>}/> 
+      </Route>
+      <Route path='reserve' element={<ReserveLayout/>}>
+        <Route index element={<BookingDetails/>}/>
       </Route>
       
     </Route>
