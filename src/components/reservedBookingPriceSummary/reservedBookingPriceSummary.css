@@ -1,0 +1,39 @@
+.reservedBookingPriceSummary--container {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding: 0.5em;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.price--line {
+    display: flex;
+    align-items: flex-start;
+}
+
+.price--line > h3 {
+    margin-right: auto;
+}
+
+.price--info, .price--note {
+    display: flex;
+    gap: 1em;
+}
+
+.price--line > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-content: end;
+}
+
+.price--line > div > h3 {
+    align-self: flex-end;
+}
+
+.tax-line > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 0;
+}
