@@ -1,0 +1,42 @@
+.reserve--wrapper {
+    padding: 4em 2em;
+}
+
+.reserveLayout--container {
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+}
+
+.step {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    font-weight: 600;
+    width: max-content;
+    margin: 0.5em;
+    
+}
+
+.your--selection >span, .your--details > span {
+    color: white;
+    background-color: royalblue;
+}
+
+.parent {
+    display: flex;
+    padding: 0.75em 1em;
+    border-radius: 50%;
+    border: 1px solid rgb(137, 134, 134);
+}
+
+
+.parent .icon {
+    font-size: 1.3rem;
+}
+
+.line {
+    background-color: black;
+    height: 1px;
+    width: 25%;
+}
