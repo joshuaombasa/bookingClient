@@ -1,0 +1,21 @@
+.reservedBookingDetails--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0.5em;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.checkin--checkout {
+    display: flex;
+    gap: 1em;
+}
+
+.check {
+    padding-right: 0.5em;
+}
+
+.check--in {
+    border-right: 1px solid silver;
+}
