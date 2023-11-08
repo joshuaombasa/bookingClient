@@ -1,0 +1,32 @@
+.PromoCode--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0.5em;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.PromoCode--container > form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.PromoCode--container > form > input {
+    padding: 0.5em;
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+}
+
+.PromoCode--container > form > button {
+    width: 30%;
+    padding: 0.5em;
+    font-size: 1.2rem;
+    color: royalblue;
+    font-weight: 500;
+    border: 1px solid royalblue;
+    border-radius: 3px;
+    background-color: #fff;
+}
