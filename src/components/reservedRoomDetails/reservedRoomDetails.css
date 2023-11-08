@@ -1,0 +1,154 @@
+.reservedRoomDetails--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cancellation--note, .room--note {
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cancellation--note > div {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.room--note > div {
+    display: flex;
+    gap: 1em;
+}
+
+.green-color {
+    color: green;
+}
+
+.reserved--room--amenities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    color: green;
+}
+
+.reserved--room--amenities > div {
+    display: flex;
+    /* gap: 0.2em; */
+    background-color: rgb(193, 242, 193);
+    padding: 0.3em;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+
+.guest--name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.guest--name input {
+    width: 50%;
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: 3px;
+    outline: unset;
+    border: 1px solid silver;
+}
+
+.guest--name input:active {
+    outline: none;
+}
+
+.adds--to--stay {
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid silver;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.car--line, .taxi--line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner {
+    display: flex;
+    gap: 1em;
+    width: 70%;
+}
+
+.inner input {
+    align-self: flex-start;
+}
+
+.inner > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.taxi--line .icon , .car--line .icon {
+    font-size: 2rem;
+    color: silver;
+}
+
+.special--requests {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.special--requests > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    
+}
+
+.special--requests textarea {
+    outline: none;
+    border: 1px solid silver;
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.arrivals {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.arrivals > div {
+    display: flex;
+    gap: 1em;
+}
+
+.arrivals .icon {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.select--arrival--time {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.select--arrival--time select {
+    width: 50%;
+    padding: 0.5em;
+    outline: unset;
+    font-size: 1rem;
+}
