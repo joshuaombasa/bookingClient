@@ -16,6 +16,7 @@ import Rules from './pages/hotel/rules/Rules'
 import Reviews from './pages/hotel/reviews/Reviews'
 import ReserveLayout from './components/reserverLayout/ReserveLayout'
 import BookingDetails from './pages/booking/bookingDetails/BookingDetails'
+import FinalStep from './pages/booking/finalStep/FinalStep'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -31,8 +32,8 @@ function App() {
       </Route>
       <Route path='reserve' element={<ReserveLayout/>}>
         <Route index element={<BookingDetails/>}/>
+        <Route path='payment' element={<FinalStep/>}/>
       </Route>
-      
     </Route>
   ))
 
