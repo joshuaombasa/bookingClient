@@ -23,7 +23,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1616423841125-8307665a0469?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FuY3VufGVufDB8fDB8fHww",
-            id: '1',
+            id: '2',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -35,7 +35,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '3',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -47,7 +47,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '4',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -59,7 +59,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '5',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -71,7 +71,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '6',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -83,7 +83,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '7',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -95,7 +95,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '8',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -107,7 +107,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '9',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -119,7 +119,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '10',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -131,7 +131,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '11',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
@@ -143,7 +143,7 @@ export default function Hotels() {
         },
         {
             imageUrl: "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
-            id: '1',
+            id: '12',
             name: 'Harbor Heights Hotel',
             rating: '4',
             center: 'Colorado',
