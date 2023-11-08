@@ -1,0 +1,35 @@
+.bookingHotelDetails--container {
+    /* padding: 0.5em; */
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.selected--hotel {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.parking--perk, .wifi--perk {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.rating--line {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.gold--star {
+    color: gold;
+}
+
+.rating--value {
+    padding: 0.5em;
+    border-radius: 5px;
+    color: white;
+    background-color: royalblue;
+}
