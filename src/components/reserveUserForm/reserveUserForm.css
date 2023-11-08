@@ -1,0 +1,77 @@
+.reserveUserForm--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.info--text {
+    padding: 1em;
+    background-color: rgb(233, 244, 244);
+    border: 1px solid rgb(111, 106, 106);
+    border-radius: 5px;
+}
+
+.form--item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 50%;
+}
+
+.form--item input {
+    padding: 0.5em;
+    outline: unset;
+    border: 1px solid silver;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.form--item input:focus {
+    border: 1px solid silver;
+}
+
+.personals {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.personals .form--item {
+    width: 50%;
+}
+
+.checked {
+    display: flex;
+    gap: 1em;
+    
+}
+
+.checked > input {
+    align-self: flex-start;
+}
+
+.check--text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.guest input[type="radio"]{
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.travelling--for > div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.travelling--for input[type="radio"] {
+
+}
