@@ -13,6 +13,23 @@
 }
 
 .your--personal--details {
-    border: 1px solid green;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
     width: 70%;
+}
+
+.next--page--link {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    padding: 0.5em;
+    width: 250px;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+    background-color: royalblue;
+    margin-top: 1em;
+    margin-left: auto;
 }
