@@ -6,6 +6,7 @@ import ReservedBookingDetails from "../../../components/reservedBookingDetails/R
 import ReservedBookingPriceSummary from "../../../components/reservedBookingPriceSummary/ReservedBookingPriceSummary";
 import ReservedCancellPolicy from "../../../components/reservedCancellPolicy/ReservedCancellPolicy";
 import PromoCode from "../../../components/promoCode/PromoCode";
+import UserPaymentDetails from "../../../components/userPaymentDetails/UserPaymentDetails";
 
 
 export default function FinalStep () {
@@ -21,7 +22,7 @@ export default function FinalStep () {
 
                 </div>
                 <div className="user--payment--details">
-
+                    <UserPaymentDetails/>
                 </div>
             </div>
         </div>
