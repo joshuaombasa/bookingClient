@@ -1,0 +1,131 @@
+.userPaymentDetails--container {
+    /* padding: 0.5em; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.save--detals--card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.save--details {
+    display: flex;
+    gap: 1em;
+}
+
+.how--do--you--want--to--pay--card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+
+.how--do--you--want--to--pay--card > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.how--do--you--want--to--pay--card input {
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: 3px;
+    outline: unset;
+    border: 1px solid silver;
+}
+
+.how--do--you--want--to--pay--card select {
+    padding: 0.5em;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid silver;
+    outline: unset;
+}
+
+.card--expiry > div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.5em;
+}
+
+ .date {
+    width: 30%;
+}
+
+.year {
+    width: 15%;
+}
+
+.extras {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.subscriptions {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.subscriptions > div {
+    display: flex;
+    gap: 1em;
+}
+
+.subscriptions input {
+    align-self: flex-start;
+}
+
+.extras a {
+    color: rgb(39, 85, 224);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.extras small {
+    font-size: 1rem;
+}
+
+.page---links {
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    
+}
+
+.page---links a {
+    padding: 0.5em 0;
+    text-align: center;
+    width: 25%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.checkBooking {
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+
+.completeBooking  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    background-color: royalblue;
+    color: white;
+}
