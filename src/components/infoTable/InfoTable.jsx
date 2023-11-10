@@ -7,6 +7,7 @@ import { PiTelevisionSimpleLight } from 'react-icons/pi'
 import { MdPerson2, MdPersonOutline } from 'react-icons/md'
 import { RiCupLine} from 'react-icons/ri'
 import { FiCheck } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 
 
@@ -176,7 +177,7 @@ export default function InfoTable() {
                 <p>{roomCount} room for</p>
                 <h3>KES {room.total}</h3>
                 <p>+KES {room.tax} taxes and charges</p>
-                <button className='reserver--btn'>I'll reserve</button>
+                <Link to='/reserve' className='reserver--btn'>I'll reserve</Link>
             </div>
         </div>
     ))
