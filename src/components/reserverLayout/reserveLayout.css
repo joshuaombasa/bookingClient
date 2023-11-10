@@ -18,7 +18,7 @@
     
 }
 
-.your--selection >span, .your--details > span {
+ .your--details > span {
     color: white;
     background-color: royalblue;
 }
@@ -31,8 +31,9 @@
 }
 
 
-.parent .icon {
-    font-size: 1.3rem;
+.reserveLayout--container .icon {
+    font-size: 2.5rem;
+    color: royalblue;
 }
 
 .line {
