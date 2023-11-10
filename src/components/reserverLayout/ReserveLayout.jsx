@@ -2,15 +2,16 @@ import React from "react";
 import './reserveLayout.css'
 import { FiCheck } from 'react-icons/fi'
 import { Outlet } from "react-router-dom";
+import { BsFillCheckCircleFill } from 'react-icons/bs'
 
 export default function ReserveLayout() {
     return (
         <div className="reserve--wrapper">
             <div className="reserveLayout--container">
                 <div className="your--selection step">
-                    <span className="parent">
-                        <span><FiCheck className="icon"/></span>
-                    </span>
+                    {/* <span className="parent"> */}
+                        <span><BsFillCheckCircleFill className="icon"/></span>
+                    {/* </span> */}
                     <p>Your selection</p>
                 </div>
                 <span className="line"></span>
