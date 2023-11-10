@@ -140,11 +140,11 @@ export default function Overview() {
                             <h3>Property highlights</h3>
                             <h4>Perfect for a 1-night stay!</h4>
                             <div className="location flat">
-                                <ImLocation className="icon" />
+                                <span><ImLocation className="icon" /></span>
                                 <p>Top location: Highly rated by recent guests (8.9)</p>
                             </div>
                             <div className="beddding flat">
-                                <BiBed className="icon" />
+                                <span><BiBed className="icon" /></span>
                                 <p>Want a great night's sleep? This hotel was highly rated for its very comfy beds.</p>
                             </div>
                             <h4>Breakfast info</h4>
