@@ -1,0 +1,12 @@
+.registerLayout--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 4em 2em;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.registerLayout--container > p {
+    text-align: center;
+}
