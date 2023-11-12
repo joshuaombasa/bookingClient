@@ -1,0 +1,16 @@
+.createAccountLayout--container {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer--common {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* color: #fff; */
+    text-align: center;
+}
+
