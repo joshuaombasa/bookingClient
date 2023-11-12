@@ -1,0 +1,100 @@
+.contactDetails--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 4em 0;
+}
+
+.contactDetails--page--container h3 {
+    font-size: 1.3rem;
+    color: #161616;
+}
+
+.contactDetails--page--container p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contactDetails--page--container hr {
+    background-color: rgb(229, 232, 243);
+    height: 1px;
+    border: none;
+}
+
+.contactDetails--page--container form  {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.contactDetails--page--container form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+
+.contactDetails--page--container form > div input {
+    padding: 0.5em;
+    background-color: white;
+    border: 1px solid rgb(147, 141, 141);
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+
+.contactDetails--page--container form > div input:focus {
+    outline: 2px solid royalblue;
+}
+
+.contactDetails--page--container .dial--code {
+    padding: 0.6em;
+}
+
+.contactDetails--page--container .dial--code:focus {
+    outline: 1px solid royalblue;
+}
+
+.contactDetails--page--container .dial--code option {
+    padding: 0.5em 0.5em 0 0.5em;
+    font-size: 0.9rem;
+    background-color: white;
+}
+
+.phoneNumber {
+    display: flex;
+    gap: 0.3em;
+    font-size: 1rem;
+    font-weight: 500;
+    align-items: center;
+    padding: 0 0.5em ;
+    outline: 1px solid royalblue;
+    border-radius: 3px;
+}
+
+.contactDetails--page--container  .phoneNumber input {
+    outline: unset;
+    border: none;
+    width: 90%;
+
+}
+
+.contactDetails--page--container  .phoneNumber input:focus {
+    outline: unset;
+}
+
+.btn--style {
+    padding: 0.6em;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+.continue-btn {
+    border: none;
+    color: white;
+    background-color: royalblue;
+}
+
+
