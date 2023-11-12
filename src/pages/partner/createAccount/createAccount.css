@@ -1,0 +1,60 @@
+.createAccount--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 4em 0;
+}
+
+.createAccount--page--container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.createAccount--page--container form input {
+    padding: 0.5em;
+    background-color: white;
+    border: 1px solid rgb(147, 141, 141);
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.createAccount--page--container form input:focus {
+    outline: 2px solid royalblue;
+}
+
+.btn--style {
+    padding: 0.6em;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+
+.continue-btn {
+    border: none;
+    color: white;
+    background-color: royalblue;
+}
+
+.sign-in-redirect {
+    background-color: white;
+    color: royalblue;
+    border: 1px solid royalblue;
+    font-weight: 500;
+}
+
+.createAccount--page--container h3 {
+    font-size: 1.3rem;
+    color: #161616;
+}
+
+.createAccount--page--container p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.createAccount--page--container hr {
+    background-color: rgb(229, 232, 243);
+    height: 1px;
+    border: none;
+}
