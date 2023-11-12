@@ -1,0 +1,46 @@
+/* .listPropertyLayout--content {
+    background-color: #1B079D;
+} */
+
+.partner--heading--parent {
+    background-color: #1B079D;
+}
+
+.partner--heading {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    padding: 1em 2em;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.partner--heading > a {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+.nav--links--parent  > a {
+    color: white;
+    margin-right: 0.5em;
+}
+
+.partner {
+    font-weight: 600;
+}
+
+.sign-in {
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.5em;
+    width: 80px;
+    text-align: center;
+}
+
+.help {
+    padding: 0.5em;
+    background-color: royalblue;
+    width: 80px;
+    text-align: center;
+}
