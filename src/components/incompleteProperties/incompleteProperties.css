@@ -1,0 +1,72 @@
+.incompleteProperties--container {
+    padding: 1em 0;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.property--head {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr;
+    padding: 1em ;
+    color: #161616;
+     border-bottom: 1px solid silver;
+}
+
+.incomplete--list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr;
+    gap: 1em;
+    padding: 1em ;
+}
+
+.property--head > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.property--name {
+   
+}
+
+.location {
+    
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.action {
+   color: royalblue;
+}
+
+.bar {
+    background-color: rgb(201, 212, 244);
+    height: 5px;
+    width: 90%;
+    position: relative;
+}
+
+.gold--level {
+    background-color: rgb(243, 214, 54);
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.delete--parent {
+    display: flex;
+    align-items: center;
+    color: red;
+    gap: 0.5em;
+}
+
+.delete--parent p {
+    color: red;
+}
