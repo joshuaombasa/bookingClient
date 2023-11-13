@@ -27,7 +27,7 @@ export default function CreatePassword () {
                             placeholder="Confirm your password"
                         />
                     </div>
-                    <Link className="btn--style continue-btn">Craete account</Link>
+                    <Link to='../../verifyAccount' className="btn--style continue-btn">Create account</Link>
                 </form>
             </div>
         </div>
