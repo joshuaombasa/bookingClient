@@ -29,6 +29,9 @@ import CreateAccountLayout from './components/createAccountLayout/CreateAccountL
 import CreateAccount from './pages/partner/createAccount/CreateAccount'
 import ContactDetails from './pages/partner/contactDetails/contactDetails'
 import CreatePassword from './pages/partner/createPassword/createPassword'
+import VerifyAccount from './pages/partner/verifyAccount/verifyAccount'
+import AdminLayout from './components/adminLayout/adminLayout'
+import GroupHomePage from './pages/partner/group/groupHomePage/GroupHomePage'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -63,6 +66,10 @@ function App() {
           <Route path='contactDetails' element={<ContactDetails/>}/>
           <Route path='createPassword' element={<CreatePassword/>}/>
         </Route>
+        <Route path='verifyAccount' element={<VerifyAccount/>} />
+      </Route>
+      <Route path='admin' element={<AdminLayout/>}>
+           <Route index element={<GroupHomePage/>}/>
       </Route>
     </>
   ))
