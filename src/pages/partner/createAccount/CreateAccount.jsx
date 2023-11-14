@@ -20,7 +20,7 @@ export default function CreateAccount() {
                 </form>
                 <hr />
                 <p>Do you have questions about your property or the extranet? Visit Partner Help or ask another question on the Partner Community.</p>
-                <Link className="sign-in-redirect btn--style ">Sign in</Link>
+                <Link  to='/admin/home/operations' className="sign-in-redirect btn--style ">Sign in</Link>
             </div>
         </div>
     )
