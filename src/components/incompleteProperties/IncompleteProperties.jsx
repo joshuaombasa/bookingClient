@@ -38,6 +38,8 @@ export default function IncompleteProperties() {
         }
     ];
 
+    console.log(incompleteProperties[0].name.split(' ')[0][0])
+
     function generateProgressBar(value) {
         return (
             <div className="bar">
@@ -51,7 +53,10 @@ export default function IncompleteProperties() {
 
     const incompletePropertiesElements = incompleteProperties.map(item => (
         <div key={item.id} className="incomplete--list">
-            <p className="property--name"><strong>{item.name}</strong></p>
+            <div className="initials--parent">
+                <span className="initials">{item.name.split(' ')[0][0]}{item.name.split(' ')[1][0]}</span>
+                <p className="property--name"><strong>{item.name}</strong></p>
+            </div>
             <p className="location">{item.location}</p>
             <div className="progress">
                 {generateProgressBar(item.progress)}
