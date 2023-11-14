@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import './groupHomePage.css'
 import { SlArrowUp, SlArrowDown } from 'react-icons/sl'
-import { Link } from "react-router-dom";
+import { GoSearch } from "react-icons/go";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import IncompleteProperties from "../../../../components/incompleteProperties/IncompleteProperties";
 
 export default function GroupHomePage() {
-    
+
     const [showIncompleteSection, setShowIncompleteSection] = useState(true)
 
     function toggleShowIncompleteSection() {
@@ -21,26 +22,36 @@ export default function GroupHomePage() {
                 </div>
                 <div className="not--yet--property--home">
                     <h2>Properties not yet on Booking.com (1)</h2>
-                    <div 
-                       className="show--toggle"
-                       onClick={() => toggleShowIncompleteSection()}
+                    <div
+                        className="show--toggle"
+                        onClick={() => toggleShowIncompleteSection()}
                     >
-                        { showIncompleteSection ?
+                        {showIncompleteSection ?
                             <div className="">
-                                <span><SlArrowDown/></span>
-                                <p>Show section</p>
+                                <span><SlArrowUp /></span>
+                                <p>Hide section</p>
                             </div>
                             :
                             <div className="">
-                                <span><SlArrowUp/></span>
-                                <p>Hide section</p>
+                                <span><SlArrowDown /></span>
+                                <p>Show section</p>
                             </div>
                         }
                     </div>
                 </div>
-                <div className="incomplete--area">
-                    <IncompleteProperties/>
+                {showIncompleteSection && <div className="incomplete--area">
+                    <p>Grow your business by adding these properties to the world's biggest online travel agency, Booking.com.</p>
+                    <IncompleteProperties />
+                </div>}
+                <h2>Active properties</h2>
+                <div className="active--property--search">
+                    <input 
+                       type="text" 
+                       placeholder="Filter by property ID, name or location"
+                    />
+                    <s><GoSearch className="icon"/></s>
                 </div>
+                <Outlet/>
             </div>
         </div>
     )
