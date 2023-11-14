@@ -37,8 +37,8 @@ export default function AdminLayout() {
             <div className="nav--parent">
                 <div className="group--nav">
                     <div className="group--nav--links">
-                        <NavLink>Group homepage</NavLink>
-                        <NavLink>Reservations</NavLink>
+                        <NavLink to='home'>Group homepage</NavLink>
+                        <NavLink to='reservations'>Reservations</NavLink>
                         <NavLink>Reviews</NavLink>
                         <NavLink>Finance</NavLink>
                         <NavLink>Bulk editing</NavLink>
