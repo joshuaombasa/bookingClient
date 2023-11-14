@@ -1,14 +1,22 @@
+.groupHomePage--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
 .groupHomePage--page--container .group--head {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.groupHomePage--page--container h1, .groupHomePage--page--container h2 ,.groupHomePage--page--container p {
+.groupHomePage--page--container h1,
+.groupHomePage--page--container h2,
+.groupHomePage--page--container p {
     color: #161616;
 }
 
-.group--head > a {
+.group--head>a {
     padding: 0.5em 1em;
     background-color: royalblue;
     color: white;
@@ -27,7 +35,7 @@
     width: 12%;
 }
 
-.show--toggle > div {
+.show--toggle>div {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -36,3 +44,38 @@
     border-radius: 3px;
     border: 1px solid rgb(23, 50, 131);
 }
+
+.incomplete--area>p {
+    line-height: 1.5;
+    margin-bottom: 0.5em;
+}
+
+.active--property--search {
+    background-color: white;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    width: 30%;
+    padding: 0.4em;
+    border: 1px solid #6c6969;
+    border-radius: 3px;
+
+}
+
+.active--property--search:hover {
+    border: 1px solid royalblue;
+}
+
+.active--property--search input {
+    outline: unset;
+    padding: 0.25em;
+    width: 90%;
+    border: none;
+    font-size: 1rem;
+}
+
+.active--property--search .icon {
+    font-size: 1.3rem;
+}
+
+
