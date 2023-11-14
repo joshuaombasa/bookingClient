@@ -1,0 +1,114 @@
+.groupReservations--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.groupReservations--page--container .filters {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    align-items: center;
+}
+
+.filters .action--filter , .groupReservations--page--container .dates--filter{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 20%;
+}
+
+.action--filter select {
+    font-size: 1rem;
+    padding: 0.5em;
+    border: 1px solid #dad5da;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.action--filter select:focus {
+    outline: 1px solid royalblue;
+}
+
+.dates--filter input {
+    font-size: 1rem;
+    padding: 0.5em;
+    border: 1px solid #dad5da;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.more--filters {
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em;
+    border: 1px solid royalblue;
+    color: royalblue;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 1rem;
+    align-self: last baseline;
+    width: 15%;
+    justify-content: center;
+}
+
+.filters button {
+    color: white;
+    background-color: royalblue;
+    padding: 0.6em;
+    border: none;
+    width: 20%;
+    text-align: center;
+    font-size: 1rem;
+    align-self: last baseline;
+}
+
+.more--filters--container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 2em;
+}
+
+.more--filters--container .filter--by--property {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.filter--by--property select {
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: 3px;
+    background-color: white;
+    width: 30%;
+}
+
+.filter--by--property select:focus {
+    outline: 1px solid royalblue;
+}
+
+.status--checks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+
+.status--checks > div {
+    display: flex;
+    gap: 0.5em;
+    font-size: 1rem;
+}
+
+.reservations--table--head {
+    display: flex;
+    gap: 1em;
+}
+
+.reservations--table--head  .property--name {
+    width: 15%;
+}
