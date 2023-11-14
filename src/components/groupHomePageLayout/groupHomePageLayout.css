@@ -1,0 +1,14 @@
+.groupHomePageLayout--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.group--homepage--nav {
+    display: flex;
+    gap: 2em;
+}
+
+.group--homepage--nav > a {
+    width: 10%;  
+}
