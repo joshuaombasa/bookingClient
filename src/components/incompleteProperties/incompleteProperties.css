@@ -1,37 +1,31 @@
 .incompleteProperties--container {
-    padding: 1em 0;
     background-color: white;
     border-radius: 5px;
-    border: 1px solid silver;
+    border: 1px solid #dad5d5;
 }
 
 .property--head {
     display: grid;
+    align-items: center;
     grid-template-columns: 2fr 1fr 2fr 2fr 1fr;
     padding: 1em ;
     color: #161616;
-     border-bottom: 1px solid silver;
+    border-bottom: 1px solid #dad5d5;
 }
 
 .incomplete--list {
     display: grid;
+    align-items: center;
     grid-template-columns: 2fr 1fr 2fr 2fr 1fr;
     gap: 1em;
     padding: 1em ;
+    border-bottom: 1px solid #dad5d5;
 }
 
 .property--head > div {
     display: flex;
     align-items: center;
     gap: 0.5em;
-}
-
-.property--name {
-   
-}
-
-.location {
-    
 }
 
 .progress {
@@ -41,8 +35,13 @@
 
 }
 
-.action {
+p.action {
    color: royalblue;
+}
+
+p.action:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .bar {
@@ -69,4 +68,30 @@
 
 .delete--parent p {
     color: red;
+}
+
+.delete--parent p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.incomplete--list .initials--parent {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.incomplete--list .initials {
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #5a5353;
+}
+
+.property--name:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
