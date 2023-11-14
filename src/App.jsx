@@ -32,6 +32,10 @@ import CreatePassword from './pages/partner/createPassword/createPassword'
 import VerifyAccount from './pages/partner/verifyAccount/verifyAccount'
 import AdminLayout from './components/adminLayout/adminLayout'
 import GroupHomePage from './pages/partner/group/groupHomePage/GroupHomePage'
+import GroupHomeOperations from './pages/partner/group/groupHomeOperations/GroupHomeOperations'
+import GroupHomePageLayout from './components/groupHomePageLayout/GroupHomePageLayout'
+import GroupHomePerformance from './pages/partner/group/groupHomePerformance/groupHomePerformance'
+import GroupReservations from './pages/partner/group/groupReservations/GroupReservations'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -59,17 +63,23 @@ function App() {
           <Route path='password' element={<LoginPasswordForm />} />
         </Route>
       </Route>
-      <Route path='/list-property' element={<ListPropertyLayout/>}>
-        <Route index  element={<ListPropertyHome/>}/>
-        <Route path='createAccount' element={<CreateAccountLayout/>}>
-          <Route index element={<CreateAccount/>}/>
-          <Route path='contactDetails' element={<ContactDetails/>}/>
-          <Route path='createPassword' element={<CreatePassword/>}/>
+      <Route path='/list-property' element={<ListPropertyLayout />}>
+        <Route index element={<ListPropertyHome />} />
+        <Route path='createAccount' element={<CreateAccountLayout />}>
+          <Route index element={<CreateAccount />} />
+          <Route path='contactDetails' element={<ContactDetails />} />
+          <Route path='createPassword' element={<CreatePassword />} />
         </Route>
-        <Route path='verifyAccount' element={<VerifyAccount/>} />
+        <Route path='verifyAccount' element={<VerifyAccount />} />
       </Route>
-      <Route path='admin' element={<AdminLayout/>}>
-           <Route index element={<GroupHomePage/>}/>
+      <Route path='admin' element={<AdminLayout />}>
+        <Route path='home' element={<GroupHomePage />}>
+          <Route element={<GroupHomePageLayout />} >
+            <Route index element={<GroupHomeOperations />} />
+            <Route path='performance' element={<GroupHomePerformance />} />
+          </Route>
+        </Route>
+        <Route path='reservations' element={<GroupReservations />} />
       </Route>
     </>
   ))
