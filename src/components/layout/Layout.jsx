@@ -18,7 +18,7 @@ export default function Layout() {
                             booking.com
                         </Link>
                         <div className="nav--links">
-                            <Link className="list--property--link">List your property</Link>
+                            <Link to='/list-property' className="list--property--link">List your property</Link>
                             <Link to='/register' className="nav--ctas">Register</Link>
                             <Link to='/login' className="nav--ctas">Sign In</Link>
                         </div>
