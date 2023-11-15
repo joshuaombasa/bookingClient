@@ -39,7 +39,7 @@ export default function AdminLayout() {
                     <div className="group--nav--links">
                         <NavLink to='home'>Group homepage</NavLink>
                         <NavLink to='reservations'>Reservations</NavLink>
-                        <NavLink>Reviews</NavLink>
+                        <NavLink  to='reviews'>Reviews</NavLink>
                         <NavLink>Finance</NavLink>
                         <NavLink>Bulk editing</NavLink>
                         <NavLink>Group Opportunity Centre</NavLink>
