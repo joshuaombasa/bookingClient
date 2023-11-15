@@ -36,6 +36,8 @@ import GroupHomeOperations from './pages/partner/group/groupHomeOperations/Group
 import GroupHomePageLayout from './components/groupHomePageLayout/GroupHomePageLayout'
 import GroupHomePerformance from './pages/partner/group/groupHomePerformance/groupHomePerformance'
 import GroupReservations from './pages/partner/group/groupReservations/GroupReservations'
+import GroupReviews from './pages/partner/group/groupReviews/GroupReviews'
+import GroupReviewsLayout from './components/groupReviewsLayout/GroupReviewsLayout'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -80,6 +82,9 @@ function App() {
           </Route>
         </Route>
         <Route path='reservations' element={<GroupReservations />} />
+        <Route path='reviews' element={<GroupReviewsLayout/>}>
+          <Route index element={<GroupReviews/>}/>
+        </Route>
       </Route>
     </>
   ))
