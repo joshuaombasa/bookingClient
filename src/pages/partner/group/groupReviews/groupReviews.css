@@ -1,0 +1,128 @@
+.groupReviews--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.reviews--content .average {
+    display: flex;
+    gap: 1em;
+}
+
+.average span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(78, 78, 163);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.average h3 {
+    font-size: 1.3rem;
+    color: rgb(32, 64, 159);
+}
+
+.average p {
+    color: #737070;
+}
+
+.review--values {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.review--values p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.reviewCategoryGraph {
+    background-color: rgb(203, 235, 203);
+    height: 10px;
+    width: 500px;
+    position: relative;
+}
+
+.reviewCategoryGraph>span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(24, 212, 24);
+    height: 10px;
+}
+
+.categoryScoreElements {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding: 2em 0;
+}
+
+.reviews--list--container {
+    display: flex;
+    gap: 2em;
+}
+
+.reviews--list--container .score--filter {
+    width: 30%;
+}
+
+.reviews--list--container .reviews--list--parent {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.reviews--list--parent .filter--nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+.filter--nav>button {
+    font-size: 1.2rem;
+    padding: 0.5em;
+    background-color: white;
+    color: royalblue;
+    font-weight: 500;
+    border: 1px solid royalblue;
+    /* width: 300px */
+}
+
+.score--filter {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    height: 300px;
+}
+
+.score--filter>h3 {
+    font-size: 1.3rem;
+    color: #161616;
+}
+
+.score--filter>div {
+    display: flex;
+    gap: 1em;
+    font-size: 1rem;
+}
+
+.review--categories--part {
+    background-color: white;
+    padding: 1em;
+    border: 1px solid #dad5d5;
+}
+
+.guest--count-per--rating {
+    background-color: white;
+    padding: 2em;
+    border: 1px solid #dad5d5;
+}
