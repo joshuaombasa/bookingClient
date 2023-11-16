@@ -1,0 +1,57 @@
+
+.groupReviewsLayout--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.groupReviewsLayout--container .wrap {
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border: 1px solid #dad5d5;
+}
+
+.groupReviewsLayout--container  > h1 {
+    color: #161616;
+}
+
+.groupReviewsLayout--container  > p {
+    color: #161616;
+    font-size: 1.2rem;
+}
+
+.reviews--content .average {
+    display: flex;
+    gap: 1em;
+}
+
+.average span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: rgb(78, 78, 163);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.average h3 {
+    font-size: 1.3rem;
+    color: rgb(32, 64, 159);
+}
+
+.average p {
+    color: #737070;
+}
+
+.group--reviews--nav {
+    display: flex;
+    font-size: 1.3rem;
+    color: #7e7878;
+    gap: 2em;
+}
+
+
