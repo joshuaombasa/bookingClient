@@ -1,0 +1,116 @@
+.selectedGroupReview--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+    background-color: white;
+    border: 1px solid #dad5d5;
+}
+
+.selected--review--wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dad5d5;
+}
+
+.selected--review--wrapper .vitals {
+    display: flex;
+    gap: 2em;
+}
+
+.guest--name {
+    font-size: 1.3rem;
+    color: #161616;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+.rating--value {
+    align-self: flex-start;
+    font-size: 1.3rem;
+}
+
+.back--link {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.back--link .icon {
+    font-size: 1.5rem;
+}
+
+.bars--cover {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #dad5d5;
+    padding: 2em 0;
+}
+
+.reservationId {
+    color: #686161;
+    font-size: 1.1rem;
+}
+
+
+.reservationId strong {
+    color: royalblue;
+    margin-left: 1em;
+}
+
+.time {
+    color: #686161;
+    font-size: 1.1rem; 
+}
+
+.rating--bar--parent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 500px;
+}
+
+.rating--bar--parent .rating--text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.rating--bar--parent .bar {
+    background-color: rgb(227, 234, 255);
+    height: 15px;
+    width: 100%;
+}
+
+.rating--bar--parent .bar span {
+    background-color: royalblue;
+    height: 15px;
+}
+
+.selectedGroupReview--page--container .comments {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em 0;
+    width: 60%;
+}
+
+.selectedGroupReview--page--container .comments textarea {
+    font-size: 1rem;
+    padding: 1em;
+}
+
+.selectedGroupReview--page--container .comments textarea:focus {
+    outline: 1px solid blue;
+}
+
+.selectedGroupReview--page--container .comments button {
+    width: 30%;
+    padding: 0.5em;
+    font-size: 1rem;
+    color: royalblue;
+    border: 1px solid royalblue;
+    background-color: white;
+}
