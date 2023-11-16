@@ -1,0 +1,52 @@
+
+
+.level--line {
+    display: flex;
+    gap: 1em;
+    height: 30px;
+}
+
+.level--line p {
+    width: 20px;
+    align-self: flex-end;
+}
+
+.level--line > span {
+    border-bottom: 1px solid #dad5d5;
+    width: 50%;
+}
+
+.ratingColumnBar--parent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ratingColumnBar--parent > p {
+    height: 30px;
+}
+
+.columnBar {
+    background-color: #89dce0;
+    width: 30px;
+    display: flex;
+    height: 300px;
+}
+.columnBar span {
+    background-color: royalblue;
+    width: 30px;
+    margin-top: auto;
+    /* height: 200px; */
+}
+
+.columns--container {
+    display: flex;
+    gap: 1em;
+    position: absolute;
+    bottom: -9%;
+    left: 5%;
+}
+
+.level--elements--parent {
+   position: relative;
+}
