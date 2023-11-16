@@ -116,7 +116,7 @@ export default function GroupHomeOperations() {
                 </select>
             </div>
             <div className="operational--property">
-                <div className="head">
+                <div className="head bold">
                     <p>ID</p>
                     <p>Property</p>
                     <p>Status on Booking.com</p>
