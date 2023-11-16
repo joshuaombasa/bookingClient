@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './groupReservations.css'
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import { reservations } from "../../../../utils/data";
 
 export default function GroupReservations() {
 
@@ -9,6 +10,22 @@ export default function GroupReservations() {
     function toggleShowMoreFilters() {
         setShowMoreFilters(prevState => !prevState)
     }
+
+    const reservationElements = reservations.map(item => (
+        <div key={item.propertyId} className="reservations--table--head">
+            <p>{item.propertyId}</p>
+            <p className="property--name">{item.propertyName}</p>
+            <p>{item.location}</p>
+            <p>{item.guestName}</p>
+            <p>{item.checkIn}</p>
+            <p>{item.checkOut}</p>
+            <p>{item.status}</p>
+            <p>{item.totalPayment}</p>
+            <p>{item.commission}</p>
+            <p>{item.reservationNumber}</p>
+            <p>{item.bookedOn}</p>
+        </div>
+    ))
 
     return (
         <div className="groupReservations--page">
@@ -72,7 +89,7 @@ export default function GroupReservations() {
                     </div>
                 </div>}
                 <div className="reservations--table">
-                    <div className="reservations--table--head">
+                    <div className="reservations--table--head bold">
                         <p>Property ID</p>
                         <p className="property--name">Property name</p>
                         <p>Location</p>
@@ -85,6 +102,7 @@ export default function GroupReservations() {
                         <p>Reservation number</p>
                         <p>Booked on</p>
                     </div>
+                    {reservationElements}
                 </div>
             </div>
         </div>
