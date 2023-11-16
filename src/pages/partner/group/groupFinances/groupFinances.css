@@ -1,0 +1,59 @@
+.groupFinances--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.groupFinances--page--container h1, .groupFinances--page--container p {
+    color: #161616;
+}
+
+
+.groupFinances--page--container p {
+    font-size: 1.2rem;
+}
+
+.invoices--list {
+    border: 1px solid #dad5d5;
+    background-color: white;
+}
+
+.invoice--head {
+    display: grid;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    border-bottom: 1px solid #dad5d5;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+}
+
+ .bold {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.action--links {
+    color: royalblue;
+}
+
+.invoice--search {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.invoice--search  label {
+    font-size: 1.1rem;
+}
+
+.invoice--search select {
+    font-size: 1rem;
+    padding: 0.5em;
+    color: royalblue;
+    background-color: white;
+    width: 150px;
+}
+
+.invoice--search select:focus {
+outline: 1px solid royalblue;
+}
