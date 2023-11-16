@@ -40,7 +40,7 @@ export default function AdminLayout() {
                         <NavLink to='home'>Group homepage</NavLink>
                         <NavLink to='reservations'>Reservations</NavLink>
                         <NavLink  to='reviews'>Reviews</NavLink>
-                        <NavLink>Finance</NavLink>
+                        <NavLink to='finances'>Finance</NavLink>
                         <NavLink>Bulk editing</NavLink>
                         <NavLink>Group Opportunity Centre</NavLink>
                         <NavLink>Analytics</NavLink>
