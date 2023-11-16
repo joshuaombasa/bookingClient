@@ -104,11 +104,17 @@
     font-size: 1rem;
 }
 
-.reservations--table--head {
-    display: flex;
-    gap: 1em;
+.reservations--table {
+    background-color: white;
+    border: 1px solid #dad5da;
 }
 
-.reservations--table--head  .property--name {
-    width: 15%;
+.reservations--table--head {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 1em;
+    border-bottom: 1px solid #dad5da;
 }
+
+
