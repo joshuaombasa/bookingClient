@@ -1,0 +1,56 @@
+.becomeHostProperty--page--container {
+    margin-top: 2em;
+    margin-left: 3em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.propety--wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em;
+    gap: 1em;
+    border: 1px solid #dad5d5;
+    background-color: white;
+    width: 80%;
+}
+
+.property--content {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+    flex-direction: column;
+    border: 2px solid #dad5d5;
+}
+
+.property--ctas {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.property--ctas .icon {
+    font-size: 1.5rem;
+}
+
+.property--ctas > span {
+    background-color: white;
+    color: royalblue;
+    padding: 0.5em;
+    border: 1px solid royalblue;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.property--continue--btn {
+    background-color: royalblue;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    width: 300px;
+    text-align: center;
+    border-radius: 3px;
+}
