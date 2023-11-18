@@ -1,0 +1,62 @@
+.becomeHostListing--page--container {
+    margin-top: 2em;
+    margin-left: 3em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.listing--wrapper {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+    flex-direction: column;
+    border: 1px solid #dad5d5;
+    background-color: white;
+    width: 50%;
+}
+
+.listing--content {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+    flex-direction: column;
+    border: 2px solid #dad5d5;
+    width: 100%;
+}
+
+.listing--ctas {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.listing--ctas .icon {
+    font-size: 1.5rem;
+}
+
+.listing--ctas > span {
+    background-color: white;
+    color: royalblue;
+    padding: 0.5em;
+    border: 1px solid royalblue;
+    width: 100px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.listing--continue--btn {
+    background-color: royalblue;
+    color: white;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    width: 300px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.disabled-link {
+    background-color: gray; 
+    cursor: not-allowed; 
+  }
