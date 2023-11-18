@@ -1,0 +1,53 @@
+.becomeHostCategory--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+
+.becomeHostCategory--page--container > h1 {
+    color: #161616;
+}
+
+.becomeHostCategory--page--container > p {
+    color: #5d5555;
+    font-size: 1.3rem;
+}
+
+.property--category--elements {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    background-color: white;
+    width: 1200px;
+    padding: 1em;
+    border: 1px solid #dad5d5;
+}
+
+.property--category--elements .icon {
+    font-size: 3rem;
+    color: royalblue;
+}
+
+.property--category--elements > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    width: 300px;
+    border-right: 1px solid #dad5d5;
+}
+
+.property--category--elements > div > h3 {
+    font-size: 1.3rem;
+    color: #161616;
+}
+
+.list--your--property--link {
+    color: royalblue;
+    padding: 0.5em 2em;
+    border: 1px solid royalblue;
+    background-color: white;
+}
