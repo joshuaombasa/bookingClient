@@ -61,7 +61,7 @@ export default function AdminLayout() {
                             <Link>FAQs</Link>
                         </div>
                         <div className="activity--links">
-                            <Link>Add new property</Link>
+                            <Link to='../become-a-host'>Add new property</Link>
                             <Link>Share your feedback</Link>
                         </div>
                     </div>
