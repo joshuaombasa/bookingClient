@@ -1,0 +1,52 @@
+.becomeHostFeedBackLoop--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 10em;
+    margin-left: 10em;
+    padding: 2em;
+    background-color: white;
+    width: 30%;
+    border: 1px solid #dad5d5;
+    border-radius: 5px;
+}
+
+.listing--item {
+    display: flex;
+    gap: 1em;
+}
+
+.listing--item p strong {
+    font-size: 1.3rem;
+}
+
+
+.listing--item p {
+    font-size: 1.1rem;
+    color: #161616;
+}
+
+.listing--ctas {
+    display: flex;
+
+    gap: 1em;
+    flex-direction: column;
+}
+
+.listing--ctas > a {
+    font-size: 1.2rem;
+    padding: 0.5em;
+    text-align: center;
+    width: 60%;
+    align-self: flex-start;
+}
+
+.continue--btn {
+    color: white;
+    background-color: royalblue;
+}
+
+.make--change--btn {
+   color: royalblue;
+   border: 1px solid royalblue;
+}
