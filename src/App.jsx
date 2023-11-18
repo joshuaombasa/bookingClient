@@ -40,6 +40,14 @@ import GroupReviews from './pages/partner/group/groupReviews/GroupReviews'
 import GroupReviewsLayout from './components/groupReviewsLayout/GroupReviewsLayout'
 import SelectedGroupReview from './pages/partner/group/selectedGroupReview/SelectedGroupReview'
 import GroupFinances from './pages/partner/group/groupFinances/GroupFinances'
+import BecomeHostLayout from './components/becomeHostLayout/BecomeHostLayout'
+import BecomeHostCategory from './pages/becomeHost/becomeHostCategory/BecomeHostCategory'
+import BecomeHostListing from './pages/becomeHost/becomeHostListing/BecomeHostListing'
+import BecomeHostProperty from './pages/becomeHost/becomeHostProperty/becomeHostProperty'
+import BecomeHostPropertyCount from './pages/becomeHost/becomeHostPropertyCount/BecomeHostPropertyCount'
+import BecomeHostFeedBackLoop from './pages/becomeHost/becomeHostFeedBackLoop/BecomeHostFeedBackLoop'
+import AboutPropertyLayout from './components/aboutPropertyLayout/AboutPropertyLayout'
+import AboutProperty from './pages/partner/newPropertyDetails/aboutProperty/AboutProperty'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -89,6 +97,16 @@ function App() {
         </Route>
         <Route path='reviews/:id' element={<SelectedGroupReview/>}/>
         <Route path='finances' element={<GroupFinances/>}/>
+      </Route>
+      <Route path='become-a-host' element={<BecomeHostLayout/>}>
+        <Route index element={<BecomeHostCategory/>}/>
+        <Route path='listing' element={<BecomeHostListing/>}/>
+        <Route path='property' element={<BecomeHostProperty/>}/>
+        <Route path='count' element={<BecomeHostPropertyCount/>}/>
+        <Route path='feedback--loop' element={<BecomeHostFeedBackLoop/>}/>
+      </Route>
+      <Route path='/about-property' element={<AboutPropertyLayout/>}>
+        <Route index element={<AboutProperty/>}/>
       </Route>
     </>
   ))
