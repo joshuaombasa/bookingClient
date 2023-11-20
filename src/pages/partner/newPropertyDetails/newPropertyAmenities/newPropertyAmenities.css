@@ -1,0 +1,26 @@
+.newPropertyAmenities--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 60%;
+    background-color: white;
+    padding: 2em;
+}
+
+.newPropertyAmenities--page--container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.extra--bed--cta, .extra--bed--cta > div, .most--popular--amenities > div {
+    display: flex;
+    gap: 1em;
+}
+
+.newPropertyAmenities--page--container .continue--btn {
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
