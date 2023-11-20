@@ -1,0 +1,46 @@
+.createRoom--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 60%;
+}
+
+.createRoom--page--container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.createRoom--page--container input {
+    outline: none;
+}
+
+.createRoom--page--container input,.createRoom--page--container  select {
+    padding: 0.5em;
+    font-size: 1rem;
+}
+
+.about--beds {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.room--pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.room--pricing > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.createRoom--page--container .continue--btn {
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
