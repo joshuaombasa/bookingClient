@@ -48,6 +48,11 @@ import BecomeHostPropertyCount from './pages/becomeHost/becomeHostPropertyCount/
 import BecomeHostFeedBackLoop from './pages/becomeHost/becomeHostFeedBackLoop/BecomeHostFeedBackLoop'
 import AboutPropertyLayout from './components/aboutPropertyLayout/AboutPropertyLayout'
 import AboutProperty from './pages/partner/newPropertyDetails/aboutProperty/AboutProperty'
+import CreateRoom from './pages/partner/newPropertyDetails/createRoom/CreateRoom'
+import NewPropertyFacilities from './pages/partner/newPropertyDetails/facilities/NewPropertyFacilities'
+import NewPropertyAmenities from './pages/partner/newPropertyDetails/newPropertyAmenities/NewPropertyAmenities'
+import NewPropertyPhotos from './pages/partner/newPropertyDetails/newPropertyPhotos/NewPropertyPhotos'
+import NewPropertySettings from './pages/partner/newPropertyDetails/newPropertySettings/NewPropertySettings'
 
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
@@ -107,6 +112,11 @@ function App() {
       </Route>
       <Route path='/about-property' element={<AboutPropertyLayout/>}>
         <Route index element={<AboutProperty/>}/>
+        <Route path='createRoom' element={<CreateRoom/>}/>
+        <Route path='facilities' element={<NewPropertyFacilities/>}/>
+        <Route path='amenities'  element={<NewPropertyAmenities/>}/>
+        <Route path='photos'  element={<NewPropertyPhotos/>}/>
+        <Route path='settings'  element={<NewPropertySettings/>}/>
       </Route>
     </>
   ))
