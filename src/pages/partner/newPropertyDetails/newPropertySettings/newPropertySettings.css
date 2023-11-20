@@ -1,0 +1,102 @@
+.newPropertySettings--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
+    background-color: white;
+    padding: 2em;
+}
+
+.guest--payment {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.guest--payment>div {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+.radio--choise {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.commission--payments {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.commision--text {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.commision--text > p {
+    width: 50%;
+}
+
+.commission--payments input {
+    padding: 0.5em;
+    border: 1px solid #a49c9c;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.commission--payments input:focus {
+    outline: 1px solid royalblue;
+}
+
+.radio--choise--parent {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.radio--choise--parent > div {
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+
+.considerations {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.considerations > div {
+    display: flex;
+    gap: 3em;
+}
+
+.agreement--parent .icon {
+    font-size: 5rem;
+    color: #ada2a2;
+}
+
+.agreement  {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.newPropertySettings--page--container .continue--btn{
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
+
+.open--btn {
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 3px;
+    color: royalblue;
+}
