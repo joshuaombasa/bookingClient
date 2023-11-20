@@ -1,0 +1,50 @@
+.newPropertyPhotos--page--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
+    background-color: white;
+    padding: 2em;
+}
+
+.new--property--photo--gallery {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.photo--cta {
+    padding: 1em;
+    flex-direction: column;
+    border:  4px  dotted #9b9393;
+    text-align: center;
+}
+
+.photo--cta > label {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.photo--cta > input {
+    display: none;
+}
+
+.add--photo--btn  {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.add--photo--btn .icon {
+    font-size: 1.5rem;
+}
+
+.newPropertyPhotos--page--container .continue--btn{
+    padding: 0.5em 0;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
