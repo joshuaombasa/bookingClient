@@ -1,0 +1,89 @@
+.aboutProperty--page--container {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.aboutProperty--page--container>div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.aboutProperty--page--container>div input {
+    font-size: 1rem;
+    background-color: white;
+    padding: 0.5em;
+    border: 1px solid #c5bcbc;
+    border-radius: 3px;
+}
+
+.aboutProperty--page--container>div input:focus {
+    outline: 1px solid royalblue;
+}
+
+.aboutProperty--page--container>div select {
+    font-size: 1rem;
+    background-color: white;
+    padding: 0.5em;
+    border: 1px solid #c5bcbc;
+    border-radius: 3px;
+}
+
+.aboutProperty--page--container>div select:focus {
+    outline: 1px solid royalblue;
+}
+
+.name--of--property {
+    width: 40%;
+}
+
+.numbers {
+    display: flex;
+    gap: 1em;
+}
+
+.number--input {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.number--input>div {
+    display: flex;
+    gap: 1em;
+}
+
+.number--input>div select {
+    width: 200px;
+}
+
+.contact--details {
+    display: flex;
+    gap: 2em;
+}
+
+.contact--details .name {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40%;
+}
+
+.addresses > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40%;
+    padding: 0.5em 0;
+}
+
+.aboutProperty--page--container .continue--btn {
+    padding: 0.5em 0;
+    width: 40%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-left: 1em;
+}
