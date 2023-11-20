@@ -195,3 +195,98 @@ export const dialCodes =  [
     'Zimbabwe (+263)',
 ];
 
+export const reservations = [
+    {
+      propertyId: '11063028',
+      propertyName: 'Magwagwa Best',
+      location: 'Nairobi, Kenya',
+      guestName: 'John Doe',
+      checkIn: '2023-01-15',
+      checkOut: '2023-01-20',
+      status: 'Confirmed',
+      totalPayment: '$300',
+      commission: '$30',
+      reservationNumber: 'R123456',
+      bookedOn: '2023-01-10'
+    },
+    {
+      propertyId: '21063029',
+      propertyName: 'Sunset Retreat',
+      location: 'Mombasa, Kenya',
+      guestName: 'Jane Smith',
+      checkIn: '2023-02-05',
+      checkOut: '2023-02-10',
+      status: 'Pending',
+      totalPayment: '$250',
+      commission: '$25',
+      reservationNumber: 'R789012',
+      bookedOn: '2023-01-25'
+    },
+    {
+      propertyId: '31063030',
+      propertyName: 'Mountain View Lodge',
+      location: 'Eldoret, Kenya',
+      guestName: 'Mark Johnson',
+      checkIn: '2023-03-12',
+      checkOut: '2023-03-15',
+      status: 'Cancelled',
+      totalPayment: '$180',
+      commission: '$18',
+      reservationNumber: 'R345678',
+      bookedOn: '2023-02-28'
+    },
+    {
+      propertyId: '41063031',
+      propertyName: 'Oceanfront Paradise',
+      location: 'Diani Beach, Kenya',
+      guestName: 'Emily White',
+      checkIn: '2023-04-08',
+      checkOut: '2023-04-12',
+      status: 'Confirmed',
+      totalPayment: '$400',
+      commission: '$40',
+      reservationNumber: 'R901234',
+      bookedOn: '2023-03-25'
+    },
+    {
+      propertyId: '51063032',
+      propertyName: 'Urban Oasis',
+      location: 'Nakuru, Kenya',
+      guestName: 'Michael Brown',
+      checkIn: '2023-05-20',
+      checkOut: '2023-05-25',
+      status: 'Pending',
+      totalPayment: '$300',
+      commission: '$30',
+      reservationNumber: 'R567890',
+      bookedOn: '2023-05-15'
+    }
+  ];
+
+  export const reviewCategories = [
+    {
+        category: 'Staff',
+        rating: '8'
+    },
+    {
+        category: 'Location',
+        rating: '9'
+    },
+    {
+        category: 'Confort',
+        rating: '10'
+    },
+    {
+        category: 'Value for money',
+        rating: '9'
+    },
+    {
+        category: 'Cleanliness',
+        rating: '10'
+    },
+    {
+        category: 'Facilities',
+        rating: '8'
+    },
+
+]
