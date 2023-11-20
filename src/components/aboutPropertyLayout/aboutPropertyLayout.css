@@ -1,0 +1,70 @@
+.about--header--parent {
+    background-color: rgb(41, 65, 135);
+}
+
+.about--header--container {
+   width: 1200px;
+   margin: 0 auto;
+   padding: 1em ;
+}
+
+.about--footer--container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2em ;
+    justify-content: space-between;
+}
+
+.main--links {
+    display: flex;
+    gap: 1em;
+    color: royalblue;
+}
+
+.other--stuff {
+    display: flex;
+    gap: 1em;
+}
+
+.lang {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.lang select {
+    padding: 0.5em;
+    background-color: white;
+}
+
+.lang select:focus {
+    outline: 1px solid royalblue;
+}
+
+.blue-text {
+    color: royalblue; 
+}
+
+.about--outlet--container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    min-height: 72.9vh;
+}
+
+.about--property--nav {
+    width: 1200px;
+    padding: 1em;
+    margin: 0 auto;
+    display: grid;
+    gap: 0.2em;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.about--property--nav > button {
+    font-size: 0.8rem;
+    border: none;
+    padding: 1em;
+    border-bottom: 4px solid rgb(93, 98, 112);
+}
