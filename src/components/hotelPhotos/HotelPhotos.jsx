@@ -35,7 +35,7 @@ export default function HotelPhotos() {
         },
     ]
 
-    const imageElements = images.map(image => <img src={image.imageUrl} />)
+    const imageElements = images.map(image => <img key={image.id} src={image.imageUrl} />)
 
     return (
         <div className="hotel--photos">
