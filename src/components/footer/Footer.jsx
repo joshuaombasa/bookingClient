@@ -82,20 +82,22 @@ export default function Footer() {
 
 
     return (
-        <section className="footer--container">
-            <div className="subscrption--section--parent">
-                <div className="subscrption--section--child">
-                    <h3>Save time, save money!</h3>
-                    <p>Sign up and we'll send the best deals to you</p>
-                    <form action="">
-                        <input
-                            type="email"
-                            name=""
-                            id=""
-                            placeholder="Your email address"
-                        />
-                        <button>Subscribe</button>
-                    </form>
+        <section className="">
+            <div className="subscription--area">
+                <div className="subscrption--section--parent">
+                    <div className="subscrption--section--child">
+                        <h3>Save time, save money!</h3>
+                        <p>Sign up and we'll send the best deals to you</p>
+                        <form action="">
+                            <input
+                                type="email"
+                                name=""
+                                id=""
+                                placeholder="Your email address"
+                            />
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div className="big--links--parent one">
@@ -134,7 +136,7 @@ export default function Footer() {
                     <div className="link--topics">
                         {aobLinksLinks}
                     </div>
-                    
+
                 </div>
             </div>
         </section>
