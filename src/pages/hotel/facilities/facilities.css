@@ -11,16 +11,12 @@
     align-items: center;
 }
 
-.facilities--page--container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.facilities--area--container {
+   display: flex;
+   flex-wrap: wrap;
+   flex-grow: unset;
 }
 
-.facilities--page--container .wrapper {
-    padding: 0.5em;
-    display: flex;
-    gap : 1em;
-}
 
 .bathroom  {
     padding: 1em;
