@@ -88,26 +88,6 @@ export default function Facilities() {
             site: 'Off-site'
         },
         {
-            activity: ' Bingo',
-            charges: 'Additional charge',
-            site: 'Off-site'
-        },
-        {
-            activity: ' Bingo',
-            charges: 'Additional charge',
-            site: 'Off-site'
-        },
-        {
-            activity: ' Bingo',
-            charges: 'Additional charge',
-            site: 'Off-site'
-        },
-        {
-            activity: ' Bingo',
-            charges: 'Additional charge',
-            site: 'Off-site'
-        },
-        {
             activity: 'Live sport events (broadcast)',
             charges: 'Additional charge',
             site: 'Off-site'
@@ -348,7 +328,7 @@ export default function Facilities() {
             <div className="most--popular--facilities">
                 <p>Great facilities! Review score, 8.7</p>
                 <h4>Most popular facilities</h4>
-                <div className="ammenities">
+                <div className="">
                     <div className="all-ammenities--icon-container">
                         <FaSwimmingPool className="icon" />
                         <span>Indoor swimming pool</span>
@@ -395,7 +375,7 @@ export default function Facilities() {
                     </div>
                 </div>
             </div>
-            <div className="facilities--page--container">
+            <div className="facilities--area--container">
                 <div className="bathroom">
                     <div className="header">
                         <span> <MdOutlineBathroom className='icon' /></span>
