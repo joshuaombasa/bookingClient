@@ -1,0 +1,108 @@
+export const results = [
+    {
+      imageUrl:
+        "https://images.unsplash.com/photo-1616423841125-8307665a0469?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FuY3VufGVufDB8fDB8fHww",
+      id: "1",
+      name: "Harbor Heights Hotel",
+      rating: "4",
+      center: "Colorado Springs",
+      distanceFromCenter: "4km",
+      sustainableLevel: "3",
+      beType: "1 extra-large double bed",
+      cost: "12000",
+      texes: "1200",
+    },
+    {
+      imageUrl:
+        "https://images.unsplash.com/photo-1616423841125-8307665a0469?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FuY3VufGVufDB8fDB8fHww",
+      id: "2",
+      name: "Mountain View Lodge",
+      rating: "4.5",
+      center: "Denver",
+      distanceFromCenter: "5km",
+      sustainableLevel: "4",
+      beType: "2 queen beds",
+      cost: "15000",
+      texes: "1500",
+    },
+    {
+        imageUrl:
+          "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
+        id: "5",
+        name: "Mountain Retreat Inn",
+        rating: "4.2",
+        center: "Aspen",
+        distanceFromCenter: "8km",
+        sustainableLevel: "2",
+        beType: "1 king bed",
+        cost: "18000",
+        texes: "1800",
+      },
+      {
+        imageUrl:
+          "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
+        id: "6",
+        name: "Pine Ridge Chalet",
+        rating: "4.8",
+        center: "Breckenridge",
+        distanceFromCenter: "3km",
+        sustainableLevel: "5",
+        beType: "1 queen bed",
+        cost: "20000",
+        texes: "2000",
+      },
+      {
+        imageUrl:
+          "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
+        id: "9",
+        name: "Serenity Lodge",
+        rating: "4.6",
+        center: "Vail",
+        distanceFromCenter: "6km",
+        sustainableLevel: "4",
+        beType: "1 king bed with mountain view",
+        cost: "22000",
+        texes: "2200",
+      },
+      {
+        imageUrl:
+          "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
+        id: "10",
+        name: "Alpine Bliss Resort",
+        rating: "4.9",
+        center: "Telluride",
+        distanceFromCenter: "7km",
+        sustainableLevel: "5",
+        beType: "1 suite with private balcony",
+        cost: "25000",
+        texes: "2500",
+      },
+      {
+        imageUrl:
+          "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
+        id: "13",
+        name: "Rocky Mountain Retreat",
+        rating: "4.7",
+        center: "Estes Park",
+        distanceFromCenter: "5km",
+        sustainableLevel: "4",
+        beType: "1 deluxe cabin",
+        cost: "18000",
+        texes: "1800",
+      },
+      {
+        imageUrl:
+          "https://images.unsplash.com/photo-1589705149724-1379ec03e196?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHZhY2F0aW9ufGVufDB8fDB8fHww",
+        id: "14",
+        name: "Majestic Mountain Lodge",
+        rating: "4.5",
+        center: "Glenwood Springs",
+        distanceFromCenter: "6km",
+        sustainableLevel: "3",
+        beType: "1 luxury suite",
+        cost: "22000",
+        texes: "2200",
+      },
+    
+  ];
+  
