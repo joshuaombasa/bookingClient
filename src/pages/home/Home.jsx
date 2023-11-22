@@ -27,7 +27,7 @@ export default function Home() {
     ]
 
     const PropertyTypeElements = propertyTypes.map(item => (
-        <div className="category--container container--common" key={item.id}>
+        <div key={item.id} className="category--container container--common">
             <img src={item.imgUrl} alt="" />
             <h3>{item.type}</h3>
         </div>
@@ -110,7 +110,7 @@ export default function Home() {
     ]
 
     const popularDestinationElements = popularDestinations.map(item => (
-        <div className="container--common popular--destination--container">
+        <div key={item.id} className="container--common popular--destination--container">
             <img src={item.imageUrl} alt="" />
             <span>{item.name}</span>
         </div>
@@ -158,7 +158,7 @@ export default function Home() {
     const uniquePsElements = uniqueProperties.map(
         item => (
 
-            <div className="unique--container">
+            <div key={item.id} className="unique--container">
                 <img src={item.imageUrl} alt="" />
                 <h3>{item.name}</h3>
                 <p>{item.country}, {item.city}</p>
@@ -215,7 +215,7 @@ export default function Home() {
     const homeGuestsLoveElements = homeGuestsLove.map(
         item => (
 
-            <div className="unique--container">
+            <div key={item.id} className="unique--container">
                 <img src={item.imageUrl} alt="" />
                 <h3>{item.name}</h3>
                 <p>{item.country}, {item.city}</p>
