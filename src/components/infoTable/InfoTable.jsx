@@ -20,8 +20,6 @@ export default function InfoTable() {
         setRoomCount(value)
     }
 
-    console.log(roomCount)
-
     const amenities = [
         'Private suite', '46 m²', 'Mountain view', 'Air conditioning', 'Ensuite bathroom', 'Flat-screen TV', 'Coffee machine', 'Free WiFi',
         'Free toiletries', 'Toilet', 'Sofa', 'Bath or shower ', 'Towels', 'Linen', ' Cleaning products', 'Hypoallergenic Desk', 'TV Refrigerator', 'Telephone', 'Satellite channels', 'Tea/Coffee maker', 'Iron', 'Microwave', 'Heating ', 'Hairdryer', ' Wake up service/Alarm clock', 'Carpeted', 'Cable channels', 'Wardrobe or closet', ' Upper floors accessible by elevator', 'Clothes rack', 'Toilet paper', 'Child safety socket covers', 'Sofa bed', 'Hearing accessible', 'Single-room air conditioning for guest accommodation', 'Carbon monoxide detector'
@@ -30,7 +28,7 @@ export default function InfoTable() {
     const rooms = [
         {
             name: 'Kings Room',
-            id: '',
+            id: '1',
             bed: '1 extra-large double bed',
             guests: '2',
             nights: '8',
@@ -40,7 +38,7 @@ export default function InfoTable() {
         },
         {
             name: 'Kings Room',
-            id: '',
+            id: '2',
             bed: '1 extra-large double bed',
             guests: '2',
             nights: '8',
@@ -50,7 +48,7 @@ export default function InfoTable() {
         },
         {
             name: 'Kings Room',
-            id: '',
+            id: '3',
             bed: '1 extra-large double bed',
             guests: '2',
             nights: '8',
@@ -60,7 +58,7 @@ export default function InfoTable() {
         },
         {
             name: 'Kings Room',
-            id: '',
+            id: '4',
             bed: '1 extra-large double bed',
             guests: '2',
             nights: '8',
@@ -70,7 +68,7 @@ export default function InfoTable() {
         },
         {
             name: 'Kings Room',
-            id: '',
+            id: '5',
             bed: '1 extra-large double bed',
             guests: '2',
             nights: '8',
@@ -83,7 +81,7 @@ export default function InfoTable() {
     function addPersonIcon(value) {
         const icons = []
         while (value > 0) {
-            icons.push(<span><MdPerson2 className='person--icon'/></span>)
+            icons.push(<span key={value}><MdPerson2 className='person--icon'/></span>)
             value--
         }
         return icons
@@ -91,7 +89,7 @@ export default function InfoTable() {
 
 
     const roomElements = rooms.map(room => (
-        <div className="table--content">
+        <div key={room.id} className="table--content">
             <div className="room--type">
                 <h3>{room.name}</h3>
                 <div className="bed--type">
@@ -108,7 +106,7 @@ export default function InfoTable() {
                         <span>46 m²</span>
                     </div>
                     <div className="perk">
-                        <span><MdOutlineLocationCity v /></span>
+                        <span><MdOutlineLocationCity className='icon'/></span>
                         <span>City view</span>
                     </div>
                     <div className="perk">
