@@ -27,6 +27,8 @@ export default function Search() {
         }
     ]);
 
+    console.log(date[0].startDate.toDateString())
+
     function toggleGuestModal() {
         setShowGuestModal(prevState => !prevState)
         setshowCalender(false)
