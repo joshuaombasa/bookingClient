@@ -93,7 +93,7 @@ export default function Reviews()  {
     ]
 
     const reviewElements =  reviews.map(item => (
-        <div className="reviews--card">
+        <div key={item.id} className="reviews--card">
             <div className="reviewer--data">
                 <div className="name flat">
                    <span> <BiUserCircle className="icon"/></span>
