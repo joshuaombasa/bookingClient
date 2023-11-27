@@ -55,7 +55,7 @@ export default function BecomeHostPropertyCount() {
                         >Multiple luxury tents</p>
                     </div>
                 </div>
-                <div className="listing--ctas">
+                <div className="listing--continue">
                     <span><FaChevronLeft className="icon" /></span>
                     <Link
                         className={`listing--continue--btn ${isLinkDisabled ? 'disabled-link' : ''}`}
