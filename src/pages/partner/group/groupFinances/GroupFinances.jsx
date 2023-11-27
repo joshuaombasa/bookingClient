@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './groupFinances.css'
+import { RxDownload } from "react-icons/rx";
 
 export default function GroupFinances() {
 
@@ -33,7 +34,7 @@ export default function GroupFinances() {
             <p>{item.checkInDate}</p>
             <p>{item.checkOutDate}</p>
             <p>$ {item.totalAmount}</p>
-            <Link className='action--links'>PDF | View statement</Link>
+            <Link className='action--links'>PDF <span><RxDownload /></span> | View statement </Link>
             <p>{item.paymentStatus}</p>
         </div>
       ))
