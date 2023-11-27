@@ -66,7 +66,7 @@ export default function BecomeHostListing() {
                         <p>Guests rent a room within the property. There are common areas that are either shared with the host or other guests.</p>
                     </div>
                 </div>
-                <div className="listing--ctas">
+                <div className="listing--continue">
                     <span><FaChevronLeft className="icon" /></span>
                     <Link
                         className={`listing--continue--btn ${isLinkDisabled ? 'disabled-link' : ''}`}
