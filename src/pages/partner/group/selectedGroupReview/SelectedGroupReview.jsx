@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import './selectedGroupReview.css'
 import { Link, useParams } from "react-router-dom";
 import { GoArrowLeft } from "react-icons/go";
 import { groupReviewsList } from "../../../../utils/reviewsData";
 
 export default function SelectedGroupReview() {
+
+    const [responseText, setResponseText] = useState('')
+    const [showResponseText, setShowResponseText] = useState(false)
+
+    function handleResponseTextChange(event) {
+      setResponseText(event.target.value)
+        console.log(event)
+       
+    }
+
+    function handleResponseSubmission() {
+        if (responseText === '') {
+            setShowResponseText(false)
+        } else {
+            setShowResponseText(true)
+        }
+    }
+
     const params = useParams()
 
     const selectedReview = groupReviewsList.find(item => item.reservationId === params.id)
@@ -58,15 +76,20 @@ export default function SelectedGroupReview() {
                         <p>{selectedReview.comments}</p> :
                         <p>No comments</p>
                     }
+                    {showResponseText && <p>{responseText}</p>}
                     {selectedReview.comments && <>
                         <textarea
-                            name=""
+                            name="responseText"
                             id=""
                             cols="30"
+                            value={responseText}
                             rows="10"
+                            onChange={handleResponseTextChange}
                             placeholder="Reply here"
                         />
-                        <button>Reply</button>
+                        <button
+                            onClick={() => handleResponseSubmission()}
+                        >Reply</button>
                     </>}
                 </div>
             </div>
