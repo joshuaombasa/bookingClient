@@ -18,7 +18,7 @@ export default function GroupHomePage() {
             <div className="groupHomePage--page--container">
                 <div className="group--head">
                     <h1>Group homepage</h1>
-                    <Link>Add new property</Link>
+                    <Link to='../../become-a-host'>Add new property</Link>
                 </div>
                 <div className="not--yet--property--home">
                     <h2>Properties not yet on Booking.com (1)</h2>
