@@ -9,10 +9,9 @@ export default function SelectedGroupReview() {
     const [responseText, setResponseText] = useState('')
     const [showResponseText, setShowResponseText] = useState(false)
 
+
     function handleResponseTextChange(event) {
-      setResponseText(event.target.value)
-        console.log(event)
-       
+        setResponseText(event.target.value)
     }
 
     function handleResponseSubmission() {
