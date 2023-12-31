@@ -13,6 +13,7 @@ export default function HotelLayout() {
                                 <NavLink
                                    style={({isActive}) => isActive ? activeStyle : null} 
                                    to='.'
+                                   end
                                 >Overview</NavLink>
                                 <NavLink
                                    style={({isActive}) => isActive ? activeStyle : null} 
