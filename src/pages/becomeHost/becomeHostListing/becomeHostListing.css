@@ -25,17 +25,17 @@
     width: 100%;
 }
 
-.listing--ctas {
+.listing--continue {
     display: flex;
     align-items: center;
     gap: 1em;
 }
 
-.listing--ctas .icon {
+.listing--continue .icon {
     font-size: 1.5rem;
 }
 
-.listing--ctas > span {
+.listing--continue > span {
     background-color: white;
     color: royalblue;
     padding: 0.5em;
