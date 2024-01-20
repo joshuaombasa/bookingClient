@@ -7,6 +7,11 @@ import { GrLanguage } from 'react-icons/gr'
 import { BsPersonCircle, BsGlobeCentralSouthAsia } from 'react-icons/bs'
 
 export default function AdminLayout() {
+
+    const activeStyle = {
+        borderBottom: '5px solid rgb(164, 183, 239)'
+    }
+
     return (
         <div className="adminLayout--container">
             <div className="nav--parent">
@@ -37,13 +42,28 @@ export default function AdminLayout() {
             <div className="nav--parent">
                 <div className="group--nav">
                     <div className="group--nav--links">
-                        <NavLink to='home'>Group homepage</NavLink>
-                        <NavLink to='reservations'>Reservations</NavLink>
-                        <NavLink  to='reviews'>Reviews</NavLink>
-                        <NavLink to='finances'>Finance</NavLink>
-                        <NavLink>Bulk editing</NavLink>
-                        <NavLink>Group Opportunity Centre</NavLink>
-                        <NavLink>Analytics</NavLink>
+                        <NavLink 
+                              style={({isActive}) => isActive ? activeStyle : null}
+                              to='home'
+                        >Group homepage</NavLink>
+                        <NavLink 
+                              style={({isActive}) => isActive ? activeStyle : null}
+                              to='reservations'
+                        >Reservations</NavLink>
+                        <NavLink  
+                              style={({isActive}) => isActive ? activeStyle : null}
+                              to='reviews'
+                        >Reviews</NavLink>
+                        <NavLink 
+                              style={({isActive}) => isActive ? activeStyle : null}
+                              to='finances'
+                        >Finance</NavLink>
+                        <NavLink
+                        >Bulk editing</NavLink>
+                        <NavLink
+                        >Group Opportunity Centre</NavLink>
+                        <NavLink
+                        >Analytics</NavLink>
                     </div >
                 </div>
             </div>
