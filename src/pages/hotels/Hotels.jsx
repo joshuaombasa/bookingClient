@@ -8,9 +8,6 @@ import { FiChevronRight } from 'react-icons/fi'
 import { results } from "../../utils/results";
 
 export default function Hotels() {
-
-   
-
     const resultElements = results.map(item => (
         <div key={item.id} className="single--result">
             <img src={item.imageUrl} alt="" />
